@@ -1,0 +1,163 @@
+<html>
+<head>
+	<title> Books </title>
+	<style>
+		.d1{border:1px solid black; 
+			width : 1850px; 
+			height : 1738px}
+			
+		.d2{border : 1px solid black; 
+			width : 1757px; 
+			height : 1651px; 
+			margin : 44px}
+			
+		.d3{background-color : black;
+			border : 1px solid black; 
+			width : 1664px; 
+			height : 1564px; 
+			margin : 42px}
+			
+		.d4{border : 1px solid black;
+			height:465px;
+			width:510px;
+			border-radius:5%;
+			margin-left : 37px;
+			margin-top : 40px;
+			box-shadow : 5px 5px 5px #c3c3c3}
+		
+		.i{margin : 35px 175px;
+			height : 200px;
+			width : 150px}
+			
+		p{margin : 0px 10px
+			align : justify;
+			opacity : 0.5}
+		
+		button{margin : 12px;
+				float : right}
+			
+		.fl{float : left}
+		.cl{clear : left}
+	</style>
+</head>
+<body>
+
+	<div class = "d1">
+		<div class = "d2">
+			<div class = "d3">
+			
+				<div class = "d4 fl">
+					<img src = "lotr1.jpg" class = "i">
+						<p>	
+							One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the 
+							darkness bind them.
+							In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, The Dark Lord, 
+							forged the One Ring, filling it with his own power so that he could rule all others. But the One 
+							Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. 
+							After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit.
+						</p>
+						<button type = "button">Read More...</button>
+				</div>
+				<div class = "d4 fl">
+					<img src = "lotr2.jpg" class = "i">
+					<p>
+						Frodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling 
+						Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost 
+						the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, 
+						tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked 
+						by Orcs. Now they continue the journey alone down the great River Anduin—alone, that is, save for the 
+						mysterious creeping figure that follows wherever they go.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+				<div class = "d4 fl">
+					<img src = "lotr3.jpg" class = "i">
+					<p>
+						In the third volume of The Lord of the Rings trilogy the good and evil forces join battle, and we see 
+						that the triumph of good is not absolute. The Third Age of Middle-earth ends, and the age of the 
+						dominion of Men begins.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+					
+				<div class = "c d4 fl">
+					<img src = "df.jpg" class = "i">
+					<p>
+						When the National Security Agency's invincible code-breaking machine encounters a mysterious code it 
+						cannot break, the agency calls its head cryptographer, Susan Fletcher, a brilliant and beautiful 
+						mathematician. What she uncovers sends shock waves through the corridors of power. The NSA is 
+						being held hostage... not by guns or bombs, but by a code so ingeniously complex that if released it 
+						would cripple U.S. intelligence.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+				<div class = "d4 fl">
+					<img src = "dvc.jpg" class = "i">
+					<p>
+						While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the dead of the night. 
+						The elderly curator of the Louvre has been murdered inside the museum, his body covered in baffling symbols. 
+						As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to 
+						discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet 
+						ingeniously disguised by the painter.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+				<div class = "d4 fl">
+					<img src = "AnD.jpg" class = "i">
+					<p>
+						World-renowned Harvard symbologist Robert Langdon is summoned to a Swiss research facility to analyze a cryptic 
+						symbol seared into the chest of a murdered physicist. What he discovers is unimaginable: a deadly vendetta against 
+						the Catholic Church by a centuries-old underground organization -- the Illuminati. In a desperate race to save 
+						the Vatican from a powerful time bomb, Langdon joins forces in Rome with the beautiful and mysterious 
+						scientist Vittoria Vetra.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+				<div class = "cl d4 fl">
+					<img src = "tls.jpg" class = "i">
+					<p>
+						In this stunning follow-up to the global phenomenon The Da Vinci Code, Dan Brown demonstrates once again 
+						why he is the world's most popular thriller writer. The Lost Symbol is a masterstroke of storytelling - 
+						a deadly race through a real-world labyrinth of codes, secrets, and unseen truths...all under the 
+						watchful eye of Brown's most terrifying villain to date. Set within the hidden chambers, tunnels, 
+						and temples of Washington, DC., The Lost Symbol accelerates through a startling landscape toward 
+						an unthinkable finale.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+				<div class = "d4 fl">
+					<img src = "babylon.jpg" class = "i">
+					<p>
+						Countless readers have been helped by the famous “Babylonian parables,” hailed as the greatest 
+						of all inspirational works on the subject of thrift, financial planning, and personal wealth. 
+						In language as simple as that found in the Bible, these fascinating and informative stories 
+						set you on a sure path to prosperity and its accompanying joys. Acclaimed as a modern-day 
+						classic, this celebrated bestseller offers an understanding of—and a solution to—your 
+						personal financial problems that will guide you through a lifetime.
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+				<div class = "d4 fl">
+					<img src = "ta.jpeg" class = "i">
+					<p>
+						Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story, 
+						dazzling in its powerful simplicity and soul-stirring wisdom, is about an Andalusian shepherd 
+						boy named Santiago, who travels from his homeland in Spain to the Egyptian desert in search of 
+						a treasure buried near the Pyramids. Along the way he meets a Romany woman, a man who calls 
+						himself a king, and an alchemist, all of whom point Santiago in the right direction for his quest. 
+					</p>
+					<button type = "button">Read More...</button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
