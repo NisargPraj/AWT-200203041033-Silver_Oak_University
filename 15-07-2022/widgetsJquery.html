@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>jQuery UI Accordion - Default functionality</title>
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <style>
+      #tag {
+        margin: 10px;
+      }
+    </style>
+    <script>
+      $(function () {
+        $("#accordion").accordion();
+      });
+    </script>
+    <script>
+      $(function () {
+        var availableTags = [
+          "Abarth",
+          "Acura",
+          "Alfa Romeo",
+          "Aston Martin",
+          "Audi",
+          "Bentley",
+          "BMW",
+          "Buick",
+          "Cadillac",
+          "Chevrolet",
+          "Chrysler",
+          "Citreon",
+          "Dacia",
+          "Dodge",
+          "Ferrari",
+          "Fiat",
+          "Ford",
+          "GMC",
+          "Honda",
+          "Hummer",
+          "Hyundai",
+          "Infiniti",
+          "Isuzu",
+          "Jaguar",
+          "Jeep",
+          "Kia",
+          "Lamborghini",
+          "Lancia",
+          "Land Rover",
+          "Lexus",
+          "Lincoln",
+          "Lotus",
+          "Maserati",
+          "Mazda",
+          "Mercedes-Benz",
+          "Mercury",
+          "Mini",
+          "Mitsubishi",
+          "Nissan",
+          "Opel",
+          "Peugeot",
+          "Pontiac",
+          "Porsche",
+          "Ram",
+          "Renault",
+          "Saab",
+          "Saturn",
+          "Scion",
+          "Suzuki",
+          "Tesla",
+          "Toyota",
+          "Volkswagen",
+          "Volvo",
+          "Wisemann",
+        ];
+        $("#tags").autocomplete({
+          source: availableTags,
+        });
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </head>
+  <body style="background-color: rgb(9, 232, 240)">
+    <div id="accordion">
+      <h3>Quote 1</h3>
+      <div>
+        <p>
+          "Man of accomplishment rarely sat back and let things happen to them.
+          They went out and made things happen."
+        </p>
+      </div>
+      <h3>Quote 2</h3>
+      <div>
+        <p>"Everthing is difficult before it is easy"</p>
+      </div>
+      <h3>Quote 3</h3>
+      <div>
+        <p>"You miss 100% of thew shots yo don't take"</p>
+      </div>
+      <h3>Quote 4</h3>
+      <div>
+        <p>“Nothing is True, Everthing is Permitted”</p>
+      </div>
+    </div>
+    <div class="ui-widget" id="tag">
+      <label for="tags">Cars: </label>
+      <input type="text" id="tags" />
+    </div>
+    <p>Date: <input type="text" id="datepicker" /></p>
+  </body>
+</html>

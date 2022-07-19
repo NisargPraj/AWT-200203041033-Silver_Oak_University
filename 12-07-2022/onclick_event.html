@@ -1,0 +1,58 @@
+<html>
+<head>
+	<script>
+		function fn()
+		{
+			var fname = document.getElementById("f");
+			var mname = document.getElementById("m");
+			var lname = document.getElementById("l");
+			
+			var s1 = document.getElementById("s1");
+			var s2 = document.getElementById("s2");
+			var s3 = document.getElementById("s3");
+			
+			if (fname.value == "")
+			{
+				s1.style.display = "";
+				f.style.border = "1px solid red";
+			}
+			else
+			{
+				s1.style.display = "none";
+				f.style.border = "";
+			}
+			
+			if (mname.value == "")
+			{
+				s2.style.display = "";
+				m.style.border = "1px solid red";
+			}
+			
+			else
+			{
+				s2.style.display = "none";
+				m.style.border = "";
+			}
+			
+			if (lname.value == "")
+			{
+				s3.style.display = "";
+				l.style.border = "1px solid red";
+			}
+			
+			else
+			{
+				s3.style.display = "none";
+				l.style.border = "";
+			}
+			
+		}
+	</script>
+</head>
+<body>
+	FirstName : <input type = "text" id = "f" onkeypress = "fn()"><span style = "display : none; color : red" id = "s1"> Please Enter Firstname</span><br><br>
+	MiddleName : <input type = "text" id = "m" onkeydown = "fn()"><span style = "display : none; color : red" id = "s2"> Please Enter Middlename</span><br><br>
+	LastName : <input type = "text" id = "l" onkeyup = "fn()"><span style = "display : none; color : red" id = "s3"> Please Enter Lastname</span><br><br>
+	<input type = "button" value = "Add" onclick = "fn()">
+</body>
+</html>

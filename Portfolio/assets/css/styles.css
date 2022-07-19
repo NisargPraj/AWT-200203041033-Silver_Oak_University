@@ -1,0 +1,220 @@
+html, body{
+	font-size:16px;
+	color: #dfdfdf;
+	background-color: #e0e0ad; 
+}
+
+a {
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+
+section{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-1 {
+	background: #e0e0ad;
+}
+
+
+
+.section-2 {
+	background-color: #052D3D;
+}
+
+.skills{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills h4{
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	color: aqua;
+	font-size: 16px;
+}
+
+.progress-bar{
+	background: #959595;
+	width: 600px;
+	height: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.progress-bar div{
+	height: 10px;
+	border-radius: 5px;
+	width: 0%;
+}
+
+.progress-bar div span{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: #052D3D;
+	float: right;
+	margin-top: -15px;
+	margin-right: -20px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.python{
+	background: #e91e63;
+	animation: python 1s linear forwards;
+}
+
+.java{
+	background: #cddc39;
+	animation: java 1s linear forwards;
+}
+
+.htmlCss{
+	background: #00bcd4;
+	animation: htmlCss 1s linear forwards;
+}
+
+.javaScriptJQuery{
+	background: #ffeb3b;
+	animation: javaScriptJQuery 1s linear forwards;
+}
+
+.MySQL{
+	background: #9c27b0;
+	animation: MySQL 1s linear forwards;
+}
+
+@keyframes python {
+	100%{
+		width: 90%;
+	}
+}
+
+@keyframes java {
+	100%{
+		width: 85%;
+	}
+}
+
+@keyframes htmlCss {
+	100%{
+		width: 70%;
+	}
+}
+
+@keyframes javaScriptJQuery {
+	100%{
+		width: 75%;
+	}
+}
+
+@keyframes MySQL {
+	100%{
+		width: 80%;
+	}
+}
+
+.section-2 img{
+	margin-right: 100px;
+	height: 130px;
+    width: 125px;
+}
+
+.section-3 {
+	background-color: #0E282E;
+}
+
+.section-4 {
+	background-color: #e0e0ad;
+	padding: 0.2rem;
+}
+
+.section-4 a{
+	color: midnightblue;
+}
+
+a.nav-item {
+	color: royalblue;
+}
+
+a.nav-item:hover {
+	color: rgb(0, 0, 0);
+}
+
+.avatar{
+	height:200px;
+	border-radius: 50%;
+}
+
+.intro-description{
+	padding-top: 1rem;
+}
+
+.social-container img{
+	max-width:100%;
+	max-height:175px;
+	margin-bottom:15px;
+}
+
+.project-figure {
+	margin: 0 auto 1rem auto;
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	color: black;
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+	.nav-menu {
+		background-color: black;
+	}
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #000000;
+	}
+
+	.nav-toggle span:hover {
+		background-color: rgb(0, 0, 0);
+	}
+
+}
